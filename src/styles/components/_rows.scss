@@ -1,0 +1,32 @@
+.row {
+    margin: auto;
+}
+
+.row--flex-right {
+    display: flex;
+    justify-content: flex-end;
+    padding: $xs-size;
+}
+
+.row--flex-center {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    padding: $xs-size;
+}
+
+.row--flex-btw {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: $xs-size;
+}
+
+.column--centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: $xs-size;
+    position: relative;
+}

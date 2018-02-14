@@ -1,0 +1,35 @@
+.btn {
+    font-family: $fontMain;
+    border-radius: $s-radius;
+    padding: $xs-size;
+    margin: $xs-size;
+    outline: none;
+    white-space: nowrap;
+    height: $l-size;
+    line-height: $l-size/2;
+}
+
+.btn--warning {
+    background: rgb(160, 8, 8);
+    color: white;
+}
+
+.btn--primary {
+    background: rgb(62, 133, 62);
+    color: white;
+}
+
+.btn--default {
+    background: rgb(107, 191, 202);
+    color: white;
+}
+
+.btn--block {
+    display: block;
+    width: 100%;
+    margin: $s-size;
+}
+
+.btn:hover:enabled {
+    box-shadow: 0.5px 0.5px 0.8px 0.8px $borderOff, -0.5px -0.5px 0.8px 0.8px $borderOff;
+}

@@ -1,0 +1,19 @@
+.header {
+    margin-top: $xl-size;
+    margin: auto;
+    width: $desktop-breakpoint;
+}
+
+.header .header__txt {
+    margin: 0;
+    text-align: center;
+    color: $txtStrong;
+    cursor: default;
+}
+
+@media (max-width: 34rem) {
+    .header {
+        margin-top: $s-size;
+        width: 95%;
+    }
+}
